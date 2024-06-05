@@ -15,7 +15,7 @@ export default {
     const now = ref(new Date());
 
     const timeLeft = computed(() => {
-        const endTime = new Date('2024-06-05T15:00:00');
+        const endTime = new Date('2024-06-05T16:00:00');
         const diff = endTime - now.value;
 
         if (diff <= 0) {
